@@ -1,3 +1,3 @@
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/cmake-build-debug/CMakeFiles/graph_puzzle_game_oysolak.dir
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug/CMakeFiles/graph_puzzle_game_oysolak.dir
+C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

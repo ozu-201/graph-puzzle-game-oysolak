@@ -80,7 +80,7 @@ int evaluate(Element *postfixExpression, int size) {
     Element e = c.pop();
     return e.getData().getOperand();
 }
-
+/*
 int main() {
     auto* postfix = new Element[5];
     postfix[0] = Element(Token(3));
@@ -98,4 +98,4 @@ int main() {
     infix[4] = Element(Token(7));
     infixToPostFix(infix, 5);
     delete[] infix;
-}
+}*/

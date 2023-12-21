@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "graph_puzzle_game_oysolak::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-graph_puzzle_game_oysolak-Debug-c27931289e856016fea5.json",
+					"jsonFile" : "target-graph_puzzle_game_oysolak-Debug-fcd165942c4c3e3d58e2.json",
 					"name" : "graph_puzzle_game_oysolak",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/cmake-build-debug",
-		"source" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak"
+		"build" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug",
+		"source" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main"
 	},
 	"version" : 
 	{

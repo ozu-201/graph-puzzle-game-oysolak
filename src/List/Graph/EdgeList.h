@@ -6,10 +6,13 @@
 #define DATASTRUCTURES_CPP_EDGELIST_H
 
 
+#include <string>
 #include "Edge.h"
 
 class EdgeList {
 private:
+    EdgeList(std::__cxx11::basic_string<char> name);
+
     Edge* head;
     Edge* tail;
 public:
@@ -19,6 +22,7 @@ public:
     Edge* search(int to) const;
     void insert(Edge* newEdge);
     Edge* getHead();
+    std::string name;
 };
 
 

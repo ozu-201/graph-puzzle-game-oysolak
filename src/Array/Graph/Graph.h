@@ -11,8 +11,6 @@
 
 namespace array{
     class Graph : public AbstractGraph{
-    private:
-        int** edges;
     public:
         explicit Graph(int vertexCount);
         ~Graph();
@@ -23,6 +21,8 @@ namespace array{
         Path* dijkstra(int source);
         int** floydWarshall();
         void prim();
+
+        int** edges;
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;

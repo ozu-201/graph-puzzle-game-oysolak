@@ -3,8 +3,10 @@
 //
 
 #include "EdgeList.h"
+#include <string>
 
-EdgeList::EdgeList() {
+EdgeList::EdgeList(std::string name) {
+    this -> name = name;
     head = nullptr;
     tail = nullptr;
 }

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "Polynomial.h"
-
+/*
 int main(){
     Polynomial polynomial1 = Polynomial();
     polynomial1.insertLast(new TermNode( Term(4, 5)));
@@ -19,4 +19,4 @@ int main(){
     cout << polynomial2.to_string() << endl;
     Polynomial result = polynomial1.add(polynomial2);
     cout << result.to_string() << endl;
-}
+}*/

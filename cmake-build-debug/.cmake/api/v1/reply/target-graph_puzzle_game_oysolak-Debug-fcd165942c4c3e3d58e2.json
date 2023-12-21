@@ -115,47 +115,47 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array/DartsGame"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array/DartsGame"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array/Graph"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array/Graph"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array/Heap"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array/Heap"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array/MathematicalExpression"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array/MathematicalExpression"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Array/Sort"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Array/Sort"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/General"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/General"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/List"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/List"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/List/Graph"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/List/Graph"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/List/Polynomial"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/List/Polynomial"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-oysolak/src/Tree"
+					"path" : "C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/src/Tree"
 				}
 			],
 			"language" : "CXX",
