@@ -22,11 +22,23 @@ namespace array{
         int** floydWarshall();
         void prim();
 
+        std::string * getNames() const;
+
+        int **getEdges() const;
+
+        std::string* names;
         int** edges;
+
+        void addName(int index, std::string name);
+
+        void breadthFirstSearch(std::string fromName, std::string toName) override;
+
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
-        void breadthFirstSearch(bool* visited, int startNode) override;
+       // void breadthFirstSearch(bool* visited, int startNode) override;
         Edge* edgeList(int& edgeCount) override;
+
+        int findIndex(std::string word);
     };
 
 }

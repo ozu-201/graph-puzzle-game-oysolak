@@ -25,7 +25,7 @@ namespace list {
         void prim();
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
-        void breadthFirstSearch(bool* visited, int startNode) override;
+        void breadthFirstSearch(std::string fromName, std::string toName) override;
         Edge* edgeList(int& edgeCount) override;
     };
 

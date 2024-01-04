@@ -5,17 +5,19 @@
 #ifndef DATASTRUCTURES_CPP_ELEMENT_H
 #define DATASTRUCTURES_CPP_ELEMENT_H
 
+#include <string>
+
 namespace array {
 
     class Element {
     private:
-        int data;
+        std::string name;
     public:
         Element();
 
-        explicit Element(int data);
+        explicit Element(std::string name);
 
-        int getData();
+        std::string getName();
     };
 
 }

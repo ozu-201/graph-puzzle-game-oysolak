@@ -2,6 +2,7 @@
 // Created by Olcay Taner YILDIZ on 8.05.2023.
 //
 
+#include <string>
 #include "Graph.h"
 #include "../DisjointSet.h"
 #include "../Queue.h"
@@ -12,6 +13,7 @@ namespace array{
 
     Graph::Graph(int vertexCount) : AbstractGraph(vertexCount){
         edges = new int*[vertexCount];
+        names = new std::string[vertexCount];
         for (int i = 0; i < vertexCount; i++){
             edges[i] = new int[vertexCount];
         }
@@ -61,7 +63,7 @@ namespace array{
         }
     }
 
-    void Graph::breadthFirstSearch(bool *visited, int startNode) {
+    /*void Graph::breadthFirstSearch(bool *visited, int startNode) {
         int fromNode;
         Queue queue = Queue(100);
         queue.enqueue( Element(startNode));
@@ -76,7 +78,28 @@ namespace array{
                 }
             }
         }
+    }*/
+
+    void Graph::breadthFirstSearch(std::string startName, std::string toName) {
+        std::string fromName;
+        bool *visited;
+        visited = new bool[vertexCount];
+        Queue queue = Queue(vertexCount);
+        queue.enqueue(Element(startName));
+        while (!queue.isEmpty()){
+            fromName = queue.dequeue().getName();
+            for (int toNode = 0; toNode < vertexCount; toNode++) {
+                if (edges[findIndex(fromName)][findIndex(toName)] > 0) {
+                    if (!visited[toNode]){
+                        visited[toNode] = true;
+                        queue.enqueue(Element(toName));
+                    }
+                }
+            }
+        }
     }
+
+
 
     Path *Graph::bellmanFord(int source) {
         Path* shortestPaths = initializePaths(source);
@@ -179,6 +202,27 @@ namespace array{
                 }
             }
         }
+    }
+
+    void Graph::addName(int index, std::string name){
+        names[index] = std::move(name);
+    }
+
+    std::string* Graph::getNames() const {
+        return names;
+    }
+
+    int **Graph::getEdges() const {
+        return edges;
+    }
+
+    int Graph::findIndex(std::string word){
+        for(int i = 0; i < vertexCount; i++){
+            if(names[i] == word){
+                return i;
+            }
+        }
+        return -1;
     }
 
 }

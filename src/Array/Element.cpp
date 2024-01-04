@@ -6,12 +6,12 @@
 
 namespace array {
 
-    Element::Element(int data) {
-        this->data = data;
+    Element::Element(std::string name) {
+        this->name = name;
     }
 
-    int Element::getData() {
-        return data;
+    std::string Element::getName() {
+        return name;
     }
 
     Element::Element() {

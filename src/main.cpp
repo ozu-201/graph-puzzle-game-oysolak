@@ -5,7 +5,7 @@
 #include "main.h"
 #include "fstream"
 #include "iostream"
-#include "Graph.h"
+#include "Array/Graph/Graph.h"
 #include <string>
 #include <list>
 
@@ -51,9 +51,9 @@ int main(){
 
     std::fstream dictionary2;
 
-    int a = 0;
-    int b = 0;
-    int c = 0;
+    int newCount3 = 0;
+    int newCount4 = 0;
+    int newCount5 = 0;
 
     dictionary2.open("turkish dictionary.txt" , std::ios::in);{
         std::string line;
@@ -61,23 +61,79 @@ int main(){
         while(getline(dictionary2, line)){
 
             if(line.length() == 3){
-                threeLetterWords[a] = line;
-                a++;
+                threeLetterGraph.addName(newCount3,line);
+                newCount3++;
             }
 
             if(line.length() == 4){
-                fourLetterWords[b] = line;
-                b++;
+                fourLetterGraph.addName(newCount4,line);
+                newCount4++;
             }
 
             if(line.length() == 5){
-                fiveLetterWords[c] = line;
-                c++;
+                fiveLetterGraph.addName(newCount5, line);
+                newCount5++;
             }
         }
     }
 
-    std::cout << fiveLetterWords[0];
+    for(int i = 0; i < newCount3; i++){
+        for(int j = 0; j < newCount3; j++){
+            int diff = 0;
+            for(int k = 0; k < 3; k++){
+                if(threeLetterGraph.getNames()[i][k] != threeLetterGraph.getNames()[j][k]){
+                    diff++;
+                }
+                if(diff == 1){
+                    threeLetterGraph.addEdge(i,j);
+                    threeLetterGraph.addEdge(j,i);
+                }
+            }
+        }
+    }
+
+    for(int i = 0; i < newCount4; i++){
+        for(int j = 0; j < newCount4; j++){
+            int diff = 0;
+            for(int k = 0; k < 4; k++){
+                if(fourLetterGraph.getNames()[i][k] != fourLetterGraph.getNames()[j][k]){
+                    diff++;
+                }
+                if(diff == 1){
+                    fourLetterGraph.addEdge(i,j);
+                    fourLetterGraph.addEdge(j,i);
+                }
+            }
+        }
+    }
+
+    for(int i = 0; i < newCount5; i++){
+        for(int j = 0; j < newCount5; j++){
+            int diff = 0;
+            for(int k = 0; k < 5; k++){
+                if(fiveLetterGraph.getNames()[i][k] != fiveLetterGraph.getNames()[j][k]){
+                    diff++;
+                }
+                if(diff == 1){
+                    fiveLetterGraph.addEdge(i,j);
+                    fiveLetterGraph.addEdge(j,i);
+                }
+            }
+        }
+    }
+
+    dictionary.close();
+
+    /*std::cout<< threeLetterGraph.getNames()[0]<<std::endl;
+    std::cout<< threeLetterGraph.getNames()[1]<<std::endl;
+    std::cout<< threeLetterGraph.getNames()[2]<<std::endl;
+    std::cout<< threeLetterGraph.getNames()[3]<<std::endl;
+    std::cout<< threeLetterGraph.getNames()[4]<<std::endl;
+    std::cout<< threeLetterGraph.getNames()[5]<<std::endl;*/
+    //std::cout<< threeLetterGraph.getEdges()[0];
+    fourLetterGraph.breadthFirstSearch("ally" , "abel");
+
+
 
     return 0;
 }

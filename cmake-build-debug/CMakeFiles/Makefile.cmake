@@ -51,5 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/graph_puzzle_game_oysolak.dir/DependInfo.cmake"
+  "CMakeFiles/graph-puzzle-game-oysolak-main.dir/DependInfo.cmake"
+  "CMakeFiles/Main.dir/DependInfo.cmake"
   )

@@ -165,7 +165,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=graph_puzzle_game_oysolak
+CMAKE_PROJECT_NAME:STATIC=graph-puzzle-game-oysolak-main
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/ranlib.exe
@@ -246,6 +246,42 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/str
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+DataStructures_CPP_BINARY_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug
+
+//Value Computed by CMake
+DataStructures_CPP_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+DataStructures_CPP_SOURCE_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak-main_BINARY_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak-main_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak-main_SOURCE_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak_BINARY_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+graph-puzzle-game-oysolak_SOURCE_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main
 
 //Value Computed by CMake
 graph_puzzle_game_oysolak_BINARY_DIR:STATIC=C:/Users/TEMP.OZUN/Desktop/graph-puzzle-game-oysolak-main/cmake-build-debug

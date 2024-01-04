@@ -1,3 +1,4 @@
+/*
 //
 // Created by Olcay Taner YILDIZ on 17.04.2023.
 //
@@ -26,3 +27,4 @@ namespace array {
 
 }
 #endif //DATASTRUCTURES_CPP_HASH_H
+*/

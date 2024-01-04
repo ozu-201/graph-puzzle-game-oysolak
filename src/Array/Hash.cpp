@@ -1,3 +1,4 @@
+/*
 //
 // Created by Olcay Taner YILDIZ on 17.04.2023.
 //
@@ -28,7 +29,7 @@ namespace array {
         int address;
         address = hashFunction(value);
         while (table[address] != nullptr){
-            if (!deleted[address] && table[address]->getData() == value){
+            if (!deleted[address] && table[address]->getName() == value){
                 break;
             }
             address = (address + 1) % N;
@@ -60,4 +61,4 @@ namespace array {
         deleted[address] = true;
     }
 
-}
+}*/

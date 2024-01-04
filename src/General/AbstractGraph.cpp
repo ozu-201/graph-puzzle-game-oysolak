@@ -34,6 +34,7 @@ int AbstractGraph::connectedComponentDfs() {
     return component;
 }
 
+/*
 int AbstractGraph::connectedComponentBfs() {
     int component = 0;
     bool* visited = new bool[vertexCount];
@@ -47,6 +48,7 @@ int AbstractGraph::connectedComponentBfs() {
     delete[] visited;
     return component;
 }
+*/
 
 void AbstractGraph::kruskal() {
     int edgeCount = 0, i, count;
